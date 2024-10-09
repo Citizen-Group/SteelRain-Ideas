@@ -11,4 +11,4 @@ This is a ✨special✨ repository that being used to store ideas publically and
 
 [Master Idea List](https://github.com/orgs/Citizen-Group/projects/15)
 
-[Discuession](https://github.com/Citizen-Group/SteelRain-Ideas/discussions)
+[Discussions](https://github.com/Citizen-Group/SteelRain-Ideas/discussions)
