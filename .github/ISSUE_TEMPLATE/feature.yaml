@@ -1,7 +1,6 @@
 name: Feature
 description: A new feature idea form
 labels: ["idea", "new"]
-projects:: ["Citizen-Group/15"]
 assignees:
   - SirPolaris
 body:
