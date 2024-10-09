@@ -1,5 +1,9 @@
 name: 'Problem Report'
 description: A new bug or problem report
+labels: ["bug", "new"]
+projects:: ["Citizen-Group/15"]
+assignees:
+  - SirPolaris
 body:
 
   - type: dropdown

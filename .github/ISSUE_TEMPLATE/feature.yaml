@@ -1,6 +1,14 @@
 name: Feature
-description: A new feature form
+description: A new feature idea form
+labels: ["idea", "new"]
+projects:: ["Citizen-Group/15"]
+assignees:
+  - SirPolaris
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for wanting to submit a suggestion. Once submitted the idea will be evaluated against this [Feature Checklist](https://docs.google.com/document/d/1gMeCcvhOGBV7_iLNLOwebT8B9ibt6tFZfW4vO37B5ok/edit?usp=sharing). Make sure to search the issues first, to double check this idea has not already been submitted.
 
   - type: input
     id: part-of
