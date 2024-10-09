@@ -1,0 +1,86 @@
+name: Feature
+description: A new feature form
+body:
+
+  - type: input
+    id: part-of
+    attributes:
+      label: 'Part Of:'
+      description: Logical grouping/category
+    validations:
+      required: false
+
+  - type: dropdown
+    id: prio
+    attributes:
+      label: 'Priority:'
+      options:
+        - Critical
+        - High
+        - Medium-High
+        - Medium
+        - Medium-Low
+        - Low
+    validations:
+      required: true
+
+  - type: input
+    id: requires
+    attributes:
+      label: 'Requires:'
+      description: 'Optional: List issue IDs blocking this report, separated by comma.'
+    validations:
+      required: false
+
+  - type: input
+    id: request
+    attributes:
+      label: 'Request:'
+      description: What is being asked for?
+    validations:
+      required: true
+
+  - type: textarea
+    id: des
+    attributes:
+      label: 'Background:'
+      description: 'Describe in deeper detail what is being asked for, the rationale for needing it, and the value brought to the project.'
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 'Implementation:'
+      description: |
+        Recommended: Roughly describe in list format the process required to complete this feature;
+        Using as much or as little detail as needed. Ensure all needed features are listed.
+        This is the remaining opportunity to break large issues into more manageable issues.
+      value: |
+        - x
+        - x
+        - x
+    validations:
+      required: false
+
+  - type: textarea
+    id: complete
+    attributes:
+      label: 'Expected results:'
+      description: |
+        Describe in checkbox format what is required to mark this issue complete;
+        Ensure all needed features, requirements, and expectations are listed. If necessary, restate and expand on linked requires.
+      value: |
+        - [ ] x
+        - [ ] x
+        - [ ] x
+    validations:
+      required: true
+
+  - type: input
+    id: references
+    attributes:
+      label: 'References:'
+      description: 'Optional: List issue IDs relating to this report, separated by comma.'
+    validations:
+      required: false

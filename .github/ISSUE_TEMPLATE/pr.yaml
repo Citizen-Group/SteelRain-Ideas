@@ -1,0 +1,96 @@
+name: Problem-Report
+description: A new bug or problem report
+body:
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 'Platform:'
+      options:
+        - PC
+        - XBOX
+        - PS5
+    validations:
+      required: true
+
+  - type: input
+    id: ver
+    attributes:
+      label: 'Ver:'
+      description: 'List the version ID of the mod.'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prio
+    attributes:
+      label: 'Priority:'
+      options:
+        - Critical
+        - High
+        - Medium-High
+        - Medium
+        - Medium-Low
+        - Low
+    validations:
+      required: true
+
+  - type: input
+    id: requires
+    attributes:
+      label: 'Requires:'
+      description: 'Optional: List issue IDs blocking this report, separated by comma.'
+    validations:
+      required: false
+
+  - type: input
+    id: request
+    attributes:
+      label: 'Request:'
+      description: What is the problem?
+    validations:
+      required: true
+
+  - type: textarea
+    id: des
+    attributes:
+      label: 'Background:'
+      description: 'Describe in deeper detail what is the problem, the rationale for needing it fixed/changed, and the value brought to the project.'
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 'Steps:'
+      description: |
+        Recommended: Roughly describe in list format the process required to replicate this problem;
+        Using as much detail as needed. Ensure all steps needed features are listed.
+        If the problem can not be replicated through these steps it will be dropped.
+      value: |
+        - x
+        - x
+        - x
+    validations:
+      required: true
+  
+  - type: textarea
+    id: complete
+    attributes:
+      label: 'Expected behavior:'
+      description: |
+        Describe in list format what your expectations were.
+      value: |
+        - x
+        - x
+        - x
+    validations:
+      required: true
+
+  - type: input
+    id: references
+    attributes:
+      label: 'References:'
+      description: 'Optional: List issue IDs relating to this report, separated by comma.'
+    validations:
+      required: false
