@@ -1,7 +1,11 @@
 <img src="https://github.com/user-attachments/assets/3d60e931-ea9c-4352-b031-d3bc7eb03d4b" width="400">
 
-# SteelRain-Ideas
+# Steel Rain: Ideas
 This is a ✨special✨ repository that being used to store ideas publically and engage with fans
+
+## Notices
+![image](https://github.com/user-attachments/assets/e626f184-5e52-49da-861e-0f39412bbe16)
+
 
 ## Community Links
 
