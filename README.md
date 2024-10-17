@@ -5,7 +5,7 @@
 
 Steel Rain borrows strong gameplay elements and direction from the top down MMO Foxhole, but retools them for the first person perspective and the strengths, scope and scale of Reforger/ARMA 4. 
 
-This is a special repository that being used to store ideas and project managment publically, and to engage with fans.
+This is a special repository that being used to store ideas and project management publicly, and to engage with fans.
 
 ## Notices
 ![image](https://github.com/user-attachments/assets/e626f184-5e52-49da-861e-0f39412bbe16)
