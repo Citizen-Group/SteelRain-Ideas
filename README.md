@@ -1,11 +1,10 @@
-<img src="https://github.com/user-attachments/assets/3d60e931-ea9c-4352-b031-d3bc7eb03d4b" width="400">
+<img src="https://github.com/Citizen-Group/SteelRain/raw/main/thumbnail.png" width="400">
 
-# Steel Rain: Ideas
-**Steel Rain** is a work in progress total conversion mod for ARMA Reforger. 
+**Steel Rain** is a WIP total conversion mod for ARMA Reforger. 
 
-Steel Rain borrows strong gameplay elements and direction from the top down MMO Foxhole, but retools them for the first person perspective and the strengths, scope and scale of Reforger/ARMA 4. 
+Steel Rain borrows strong gameplay elements and direction from the top down MMO Foxhole, but retools them for the first person perspective, and the strengths, scope and scale of Reforger/ARMA 4. 
 
-This is a special repository that being used to store ideas and project management publicly, and to engage with fans.
+This is a special repository that being used to store ideas, have the project management public, and to engage with fans. _The daily code development is done elsewhere._
 
 ## Notices
 ![image](https://github.com/user-attachments/assets/e626f184-5e52-49da-861e-0f39412bbe16)
